@@ -117,3 +117,29 @@ a,
     border-radius: 10px;
     margin: 10px 0;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
