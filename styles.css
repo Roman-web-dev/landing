@@ -12,9 +12,12 @@ body {
     background-color: #1f2937;
 }
 
+.hero-container {
+    padding: 12px 15%;
+}
+
 .header {
     justify-content: space-between;
-    padding: 12px 15%;
 }
 
 ul {
@@ -56,7 +59,7 @@ a,
 .hero-content{
     justify-content: space-between;
     flex-wrap: wrap ;
-    padding: 60px 15%;
+    padding: 50px 0 50px 0;
 }
 
 .hero-main {
@@ -78,17 +81,28 @@ a,
     margin: 15px 0;
 }
 
+.txtcontainer {
+    flex-basis: 400px;
+    max-width: 500px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
 .image{
-    width: 600px;
     border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .information {
-    height: 400px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    padding: 50px 50px 0 50px;
 
 }
 
@@ -104,11 +118,13 @@ a,
     justify-content: center;
     gap: 50px;
     margin: 50px;
+    flex-wrap: wrap;
 }
 
 .info-block {
     width: 200px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .info-image {
@@ -149,4 +165,37 @@ a,
 
 .action {
     padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-container {
+    display: flex;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text {
+    color: #e5e7eb;
+
+}
+
+.action-head {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e5e7eb ;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
 }
