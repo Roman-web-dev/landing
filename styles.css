@@ -146,19 +146,21 @@ a,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    min-width: 200px;
+    max-width: 950px;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1f2937;
+    text-align: center;
 }
 
 .author {
     align-self: flex-end;
-    padding: 20px 20px 0 20px;
+    padding-top: 20px;
     font-size: 18px;
     font-weight: bolder;
 }
@@ -177,6 +179,7 @@ a,
     padding: 40px 80px;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .action-text {
@@ -198,4 +201,17 @@ a,
     width: 140px;
     height: 35px;
     border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign {
+    font-size: 18px;
+    color: #f9faf8;
 }
